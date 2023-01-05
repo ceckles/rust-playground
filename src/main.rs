@@ -30,7 +30,7 @@ fn main() {
         println!("scope x is : {}", x);
         //can also call parent variables within a scope
         let z = z - 2;
-        println!("scope z is : {}",z);
+        println!("scope z is : {}", z);
 
         //can also change type when redeclareing but, not if it is a mut
         let x = "Hello World!";
@@ -38,8 +38,8 @@ fn main() {
     }
 
     //constants can not change once its defined
-    const SECONDS_IN_MINUTES : u32 = 60;
+    const SECONDS_IN_MINUTES: u32 = 60;
     //SECONDS_IN_MINUTES = 100; //no go
     //const SECONDS_IN_MINUTES : u32 = 60; //no go
-    println!("Seconds in a Min : {}",SECONDS_IN_MINUTES); 
+    println!("Seconds in a Min : {}", SECONDS_IN_MINUTES);
 }
