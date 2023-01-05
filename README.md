@@ -6,7 +6,7 @@ this is used like a npm its a project/dep tracker
 
 ### Usage
 ```bash
-> cargo new project
+> cargo new projectname
 #or use current dir
 > cargo init
 ```
@@ -26,7 +26,7 @@ Format code
 ```bash
 #Cargo ( in project dir )
 > cargo build 
-#or a nodemon style
+#or a nodemon style preferred..
 > cargo run
 
 #base
